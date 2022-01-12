@@ -1,0 +1,66 @@
+.like-button {
+  margin-top: 50px;
+  padding-right: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.like-button .heart {
+  height: 80px;
+  width: 80px;
+  background: url("../Assets/heart.png") no-repeat;
+  background-position: left;
+  background-size: 2900%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+}
+
+.like-button:hover .heart {
+  background-position: right;
+  animation: animate 0.8s steps(28) 1;
+}
+
+@keyframes animate {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+.like-button-active {
+  margin-top: 50px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #c24b5f;
+  background: #000000;
+  color: rgb(202, 95, 95);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.like-button-active .heart {
+  height: 80px;
+  width: 80px;
+  background: url("../Assets/heart.png") no-repeat;
+  background-position: right;
+  background-size: 2900%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+}

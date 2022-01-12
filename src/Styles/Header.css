@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+
+.Header {
+  font-family: "Poppins";
+  scroll-snap-align: center;
+  box-shadow: inset 10px 10px 150px rgb(0, 0, 0);
+  background: rgb(14, 14, 14);
+  background: url("../Assets/background-stars.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Header h1 {
+  /* margin-top: 20%; */
+  font-size: 70px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+
+.Title {
+  display: flex;
+  margin-top: 30vh;
+  align-items: center;
+}
+
+.PlanetDiv {
+  margin-top: 25px;
+  /* padding: 20px; */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: "block";
+  background: url("../Assets/earth.gif");
+  background-position: center;
+  background-size: auto 50px;
+}
