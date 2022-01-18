@@ -9,4 +9,5 @@ User it here :computer: https://hammadba.github.io/Spacestagram/
 ## Features
 * Loading screen while API is loading/fetching data
 * Heart/Like animation
+* Compatible with both Video/Image API fetch data
 * Some Front End Magic
