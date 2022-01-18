@@ -7,7 +7,7 @@ export class Header extends Component {
       <div>
         <div className="Header">
           <div className="Title">
-            <h1> Spacetegram</h1>
+            <h1> Spacestegram</h1>
             <div className="PlanetDiv"></div>
           </div>
 
