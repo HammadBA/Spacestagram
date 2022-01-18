@@ -69,6 +69,8 @@ export class Post extends Component {
                     }
                   </div>
                   <div>{APOD.date}</div>
+                  <br></br>
+
                   <div>{APOD.explanation}</div>
                   <LikeButton initialCount={Math.floor(Math.random() * 100)} />
                 </div>
