@@ -1,4 +1,4 @@
-# Spacetegram - Shopify Technical Challenge
+# Spacestegram - Shopify Technical Challenge
 Share Astronomy Pictures Using NASA's Astronomy Picture Of The Day (APOD) API
 
 
@@ -11,3 +11,5 @@ User it here :computer: https://hammadba.github.io/Spacestagram/
 * Heart/Like animation
 * Compatible with both Video/Image API fetch data
 * Some Front End Magic
+
+-Hammad Bin Arif
