@@ -28,30 +28,19 @@ export class Post extends Component {
   async componentDidMount() {
     const url =
       "https://api.nasa.gov/planetary/apod?api_key=c9eaIuphyvef2uqcF22CNmwUtti8GQD0brMz1yEp&count=15";
-    // const response = await fetch(url);
-    // const data = await response.json();
-    fetch(url).then((response) => {
-      if (response.ok) {
-        const data = response.json();
-        console.log(data);
-        this.setState({
-          Data: data,
-          loading: false,
-        });
-      } else {
-        this.setState({
-          Data: ["Error"],
-        });
-        console.log(response);
-        throw new Error("Error in API Fetch");
-      }
+
+    const response = await fetch(url);
+    const data = await response.json();
+
+    this.setState({
+      Data: data,
+      loading: false,
     });
   }
 
   render() {
     return (
       <div>
-        <Header />
         {this.state.loading || !this.state.Data ? (
           // Loading Page while Data is retrieved from API
 
@@ -65,6 +54,7 @@ export class Post extends Component {
           </div>
         ) : (
           <div className="Card-container">
+            <Header />
             {/* NASA API DATA Display */}
             {this.state.Data.map((APOD, i) => (
               <div
