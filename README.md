@@ -1,4 +1,4 @@
-# Spacestegram - Shopify Technical Challenge
+# Spacestegram
 Share Astronomy Pictures Using NASA's Astronomy Picture Of The Day (APOD) API
 
 
