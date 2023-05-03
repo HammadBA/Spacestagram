@@ -1,7 +1,7 @@
 # Spacestegram
 Share Astronomy Pictures Using NASA's Astronomy Picture Of The Day (APOD) API<br>
 Built using Reactjs <br><br>
-User it here :computer: https://hammadba.github.io/Spacestagram/ 
+Use it here :computer: https://hammadba.github.io/Spacestagram/ 
 
 ## Features
 * Loading screen while API is loading/fetching data
